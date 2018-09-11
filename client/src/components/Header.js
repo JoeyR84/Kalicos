@@ -1,9 +1,19 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
 const Header = () => (
-	<div>
-		<p>Kalicos</p>
-	</div>
-)
+  <div>
+    <Kalicos>KALICOS</Kalicos>
+  </div>
+);
 
-export default Header
+const Kalicos = styled.h1`
+  text-align: left;
+  background: #0d449b;
+  color: #fff;
+  height: 90px;
+  padding-top: 17px;
+  padding-left: 3%;
+`;
+
+export default Header;
